@@ -1,0 +1,8 @@
+# This file is named "Sơn"
+# You can start writing your Python code below
+
+def hello():
+    print("Xin chào, Sơn!")
+
+if __name__ == "__main__":
+    hello()
