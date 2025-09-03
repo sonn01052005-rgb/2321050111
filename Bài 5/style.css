@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+
+}
+.danhmuc {
+    background-color: #1a8dd0;
+    /* Dùng để thay đổi độ dài trang */
+    padding: 20px;
+
+}
+ul {
+    margin: 0;
+}
+.danhmuc-danhmuc{
+    /* Display giúp đổi hàng ngang thành dọc */
+    display: flex;
+    /*  */
+    list-style: none;
+
+}
+.danhmuc-lienket{
+    font-size: larger;
+    color: white;
+    /*  */
+    text-decoration: none;
+}
+.danhmuc-muc{
+    margin:10px;
+}
+/* Di chuyển đến đổi màu*/
+.danhmuc-lienket:hover{
+    color: grey;
+
+}
+.logo{
+    height: 40px;
+    background-color:black;
+}
+.noidung-trai{
+    /* height: 1000px;
+    background-color:aqua; */
+    /* Chia chiều ngang */
+    width :80%;
+     border-radius:20px ;
+
+
+}
+main{
+    /* Sao cho 2 ô chung 1 dòng ngang */
+    display: flex;
+}
+.noidung-phai{
+    background-color:red;
+    width:20%;
+}
+.tieude{
+    background-color:#1a8dd0;
+    padding:20px;
+    color: white;
+    font-size: x-larger;
+    font-weight: bold;
+    border-radius: 20px 20px 0px 0;
+}
+.baiviet1{
+    height: 200px;
+    background-color: grey;
+    width: 32%;
+}
+.tintuc-danhsach{
+    display: flex;
+    /* Cách đều các trang */
+    justify-content: space-between ;
+}
+.baiviet2{
+    height: 200px;
+    background-color: grey;
+    width: 32%;}
+    .baiviet3{
+    height: 200px;
+    background-color: grey;
+    width: 32%;
+    }
+    .khung{
+            width 32%;
+            height: 200px;
+            border:5px solid #eeeeee;
+            border-radius: 10px;
+            justify-content: space-between ;
+    }
+    
+        
+
