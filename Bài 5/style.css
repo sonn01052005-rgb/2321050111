@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #eeeeee;
 
 }
 .danhmuc {
@@ -34,35 +35,37 @@ ul {
 }
 .logo{
     height: 40px;
-    background-color:black;
+    background-color:#1ca5f5;
 }
 .noidung-trai{
     /* height: 1000px;
     background-color:aqua; */
     /* Chia chiều ngang */
     width :80%;
-     border-radius:20px ;
+     border-radius:10px ;
 
 
 }
 main{
     /* Sao cho 2 ô chung 1 dòng ngang */
     display: flex;
+    justify-content: space-between ;
 }
 .noidung-phai{
-    background-color:red;
+    background-color:white;
     width:20%;
 }
 .tieude{
-    background-color:#1a8dd0;
-    padding:20px;
+    background-color:#059ff9;
+    padding:10px;
     color: white;
     font-size: x-larger;
     font-weight: bold;
     border-radius: 20px 20px 0px 0;
+    width:98%;
 }
 .baiviet1{
-    height: 200px;
+    height: 150px;
     background-color: grey;
     width: 32%;
 }
@@ -72,21 +75,131 @@ main{
     justify-content: space-between ;
 }
 .baiviet2{
-    height: 200px;
+    height: 150px;
     background-color: grey;
     width: 32%;}
+
     .baiviet3{
-    height: 200px;
+    height: 150px;
     background-color: grey;
     width: 32%;
     }
-    .khung{
-            width 32%;
-            height: 200px;
-            border:5px solid #eeeeee;
-            border-radius: 10px;
-            justify-content: space-between ;
+    .khung1{
+            width: 100%;
+            height: 150px;
+            border:1px solid #eeeeee;
+            border-radius: 5px;
+            justify-content: space-between;
+            object-fit: cover;         
     }
+     .khung2{
+            width: 100%;
+            height: 150px;
+            border:1px solid #eeeeee;
+            border-radius: 5px;
+            justify-content: space-between;  
+             object-fit: cover;         
+    }       
+     .khung3{
+            width: 100%;
+            height: 150px;
+            border:1px solid #eeeeee;
+            border-radius: 5px;
+            justify-content: space-between;   
+             object-fit: cover;                 
+    }
+    
+    .dn{
+    width:20%;
+    color: white;
+    height:30px;
+    justify-content: space-between ;
+    padding: 8px;
+    background: #1e90ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+    }
+    .dnv{
+        background-color:#1a8dd0;
+        color:white;
+        height:50px;
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .mk{
+        color:#1ca5f5;
+        text-align: right;
+
+    }
+    .tb{
+        clear: both;
+        display:flex;
+        flex-wrap:wrap;
+        width :100%;
+
+
+    }
+    .date1{
+        background-color:#1a8dd0;
+        text-align: right;
+    }
+    .date2{
+        background-color:#1a8dd0;
+        text-align: right;
+
+    }
+    .date3{
+        background-color:#1a8dd0;
+        text-align: right;
+    }
+    .chuthich{
+        text-align: center;
+        background-color: aqua;
+    }
+    .thongbao{
+        margin: 0px;
+        background-color: white;
+        padding: 15 px;
+        border: 1px solid #ddd;
+        width :80%;
+        display: flex;
+        cursor: pointer;
+    }
+    .thongbao ul{
+        list-style: none;
+    }
+    .thongbao ul li{
+        padding:6px 0;
+        border-bottom: 2px solid#eee;
+        font-size: 14px;
+    }
+    .thongbao ul li span{
+        color:red;
+        font-weight:bold;
+        animation: blink 1s infinite;
+     ;
+    }
+    .lg{
+        height:200px;   
+    }
+    h3{
+        margin:0px;
+        width: 80%;
+        background-color:aqua;
+        border-radius: 5px;
+
+
+    }
+
+
     
         
 
