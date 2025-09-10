@@ -1,0 +1,80 @@
+ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+    padding:0;
+}
+body{
+    margin:0;
+    background-color:#131314;
+}
+.header-contain{
+    display:flex;
+    background-color:black ;
+    width:70%;
+    margin:auto;
+    justify-content: center;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    color: #9b9b9b;
+    font-size: 16px;
+    font-family: "SFProDisplay", Arial, sans-serif;
+}
+/* Đổi màu đến đối tượng */
+a:hover{
+    color: orange;
+}
+header{
+    background-color:black;
+}
+.danhmuc{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding: 10px 0;
+}
+.logo{
+    width:15%;
+    display:flex;
+    height:auto;
+}
+.chucnang{
+    display:flex;
+    align-items: center;
+    gap:20px;
+
+}
+.muagoi{
+    background-color: orange;
+    border: none;
+    color:white;
+    padding: 10px 20px;  
+    width:100px;
+    border-radius:10px;
+}
+.dangnhap{
+    background-color:black;
+    color:white;
+    border: none;
+    width:100px;
+}
+main{
+    background-color: #131314;
+    color: white;
+    width:100%;
+    height:100%;
+}
+.quangcao{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:70%;
+    background-color: black;
+    height: 1000px;
+    margin:auto;
+}
+
