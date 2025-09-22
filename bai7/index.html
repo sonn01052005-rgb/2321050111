@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Java Script</title>
+    <script src="script.js">
+    </script>
+</head>
+<body>
+    <script>
+        document.writeln("Hello world!" + <br> );
+
+         let hoTen= ("Nguyen Hoang Son" + <br>);
+         // để khai báo biến JS dùng let hoặc var
+         // cú pháp: let Tên biến= Gía trị;
+         //Để nối chuỗi JS dùng dấu +
+         // phép + - * /
+         let soThuNhat= 5;
+         let soThuHai= 10;
+         let ketQua= 0;
+         //ketQua= soThuNhat + soThuHai;
+         document.writeln(hoten);
+         // thêm cộng cộng trừ trừ rồi mới in ra
+         document.writeln(++ketQua);
+         // soThuNhat= soThuNhat + soThuHai; += /= *= /=
+         soThuNhat += soThuHai;
+         // 
+         let soThuNhat= 5;
+         let soThuHai= "10";
+         let ketQua= true;
+         // 2 dấu bằng là giá trị, 3 dấu bằng tính cả kiểu dữ liệu
+         document.writeln(soThuNhat === soThuHai);
+         // == != === !=== ! > < >= <=
+         let thongTinSinhVien ={
+            hoTen: "Nguyen Hoang Son",
+            mssv: "2321050111",
+            gioiTinh: true,
+            tuoi: 20,
+            lop: "DCCTCT68A",          
+         }
+         let diaChiNhaBanSon= {
+            tinh: Nam Dinh,
+            huyen: trucninh,
+            xa: catthanh,
+         }
+         thongTinSinhVien.diachi = diaChiNhaBanSon;
+         document.writeln("Xin chao ban:" + " " +thongTinSinhVien.hoTen + " " +
+             thongTinSinhVien.tuoi + "tuoi" + " " + 
+             thongTinSinhVien.diaChi.tinh);
+             let namNay = 2025;
+             document.writeln(("Ban" + thongTinSinhVien.hoTen + "sinh nam")+ (namNay - thongTinSinhVien.tuoi));
+         );
+
+    </script>
+</body>
+</html>
