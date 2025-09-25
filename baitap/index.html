@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let thongTinDonHang={
+            maSP: "123456789",
+         thongTinKhachHang:{         
+            hoTen: "Nguyen Van A",
+            soDienThoai: "0867976183",
+            tangThaiThanhVien: true,
+        },
+            danhSachSanPham :{
+                sp1: {
+                    maSP: "123456789",
+                    tenSP: "cafe",
+                    soLuong: 20,
+                    giaTien: "30"
+                },
+                sp2: {
+                    maSP: "123456789",
+                    tenSP: "matcha",
+                    soLuong: 30,
+                    giaTien: "30"
+                },
+                sp3: {
+                    maSP: "123456789",
+                    tenSP: "match",
+                    soLuong: 5,
+                    giaTien: "30"
+                },
+            },
+                thanhToanThanhCong: true,
+                diaChiGiaoHang: "Le Van Hien"
+            }
+        let tongSP1 = thongTinDonHang.danhSachSanPham.sp1.giaTien * thongTinDonHang.danhSachSanPham.sp1.soLuong;
+        let tongSP2 = thongTinDonHang.danhSachSanPham.sp2.giaTien * thongTinDonHang.danhSachSanPham.sp2.soLuong;
+        let tongSP3 = thongTinDonHang.danhSachSanPham.sp3.giaTien * thongTinDonHang.danhSachSanPham.sp3.soLuong;
+        let tongTien = tongSP1 + tongSP2 + tongSP3;
+        document.writeln("Tong so tien la:" + tongTien);
+        //document.writeln("Do dai cua ma don hang la:" + thongTinDonHang.maDonHang.length);
+        // document.writeln("Độ dài của mã đơn hàng")
+        var myString = "Hello Son";
+        // lấy ký tự thứ 3 
+        document.writeln(myString[3]);
+        // độ dài chuỗi
+        document.writeln(myString.slice(1,4));
+        // thay thế chuỗi
+        document.writeln(myString.replace("Hello","Hi"));
+        // đổi thường thành hoa 
+        document.writeln(myString.toLowerCase());
+        // indexof trả ra vị trí xuất hiện đầu tiên
+        // nếu có : Vị trí, nếu k: -1
+        document.writeln(myString.includes('o'));
+        document.writeln(myString.split('1'))
+        // kiểm tra chuỗi bắt đầu bằng 
+        let danhSach= ["Nguyen Hoang Son","Nguyen Ba Quang","Nguyen Minh Long"];
+        document.writeln(danhSach[1].startsWith("Nguyen"));
+        // Chuyển chuỗi về số 
+        let so="123";
+        document.writeln(typeof (so));
+        document.writeln(typeof(Number(so)));
+        document.writeln(isNaN(so));
+        // Date
+        let toDay = new Date();
+        document.writeln(toDay.gemMoth());
+        document.writeln('')
+
+    </script>
+</body>
+
+</html>
