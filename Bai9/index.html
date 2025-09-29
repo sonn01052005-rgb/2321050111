@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //mảng
+        let arr = [1, 2, 3, 4, 5, 'a', 'b', 5, 6];
+        //let a = "abc";
+        // Nối hai 2 mảng a,b lại với nhau
+        let a, b, c, d;
+        a = [1, 2, 3];
+        b = "JavaScript"
+        c = [42, "VBScript"]
+        d = a.concat(a, b, c);
+        document.writeln(d);
+        // Chuyển thành chuỗi xog ngăn cách bằng dấu - 
+        document.writeln(d.join("-"));
+        // Bỏ ra 
+        d.pop();
+        // Thêm một phần tử ở trong mảng 
+        d.push("Son");
+        // Đảo phần tử trong mảng
+        document.writeln(d.reverse());
+        document.writeln(d);
+        // Trỏ đến vị trí xog gán 
+        d[3]= 4;
+        // shift() Xóa phần tử đầu tiên arr.shift();
+        // unshift() Thêm phần tử vào đầu mảng arr.unshift(0);
+        // push() thêm phần tử vào cuối mảng arr.push(6);
+        // pop 
+        // Đọc phần tử ở vị trí số 3
+        document.writeln(arr[3]);
+        // Tìm trong mảng có kí tự a xuất hiện đầu tiên
+        document.writeln(arr.indexof('a'));
+        // Tìm trong mảng có kí tự 5 xuất hiện cuối cùng
+        document.writeln(arr.lastIndexof(5));
+        // Kiểm tra có phải là mảng hay không
+        document.writeln(Array.isArray(a));
+        //Câu lệnh if
+        let today = new Date();
+        let now= today.getHours();
+        if (now <10){
+            document.writeln("Chao buoi sang");
+        }
+        else if(now >=10 && now <12 ){
+            document.writeln("Chao buoi trua");
+        }
+        else if (now >= 12 && now <17){
+            document.writeln("Chao buoi chieu");
+        }
+        else if (now >= 17 && now <22){
+            document.writeln("Chao buoi toi");
+        }
+        else{
+            document.writeln("Chao buoi dem");
+        };
+        let so= 10;
+        // Kiểm tra số chẵn hay lẻ
+        if (so%2==0){
+            document.writeln("Day la so chan");
+        }
+        else {
+            document.writeln("Day la so le");
+        }
+    </script>
+</body>
+
+</html>
