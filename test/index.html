@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" id="chieuCao" placeholder="Nhập chiều cao:">
+    </div>
+    <div>
+        <input type="number" id="canNang" placeholder="Nhập cân nặng:">
+    </div>
+    <div>
+        <button onclick="kiemTra()">Kiểm tra chỉ số BMI</button>
+    </div>
+    <div>
+        ket qua : <input type="text" id"ketQua" readonly>
+    </div>
+</body>
+<script>
+    function kiemTra(){
+            let chieuCao = parseFloat(document.getElementById('chieuCao').value);
+            let canNang = parseFloat(document.getElementById('canNang').value);         
+    }
+      function danhGiaBMI(bmi) {
+            if (bmi <= 18.5) return "Gay";
+            else if (18.5<= bmi <= 25) return "Bình thường";
+            else if (25<= bmi <= 30) return "Thừa cân";
+            else if (30<= bmi <= 39.9) return "Bel c1";
+            else return "Béo phì";
+        }
+            function kiemTraDieuKien(a, b){
+                let kiemtra = true;
+                if(isNaN(a) || a<=0){
+                    alert('Chieu cao khong hop le');
+                    kiemtra = false;
+                } 
+                if(isNaN(b) || b<=0){
+                    alert('Can nang khong hop le');
+                    kiemtra = false;
+                }  
+                return kiemtra;             
+
+
+                }
+            }
+</script>
+
+</html>
